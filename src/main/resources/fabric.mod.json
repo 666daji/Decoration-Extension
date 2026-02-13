@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "tw-decorative-extension",
+  "version": "${version}",
+  "name": "Tw`s Decoration Extension",
+  "description": "More ways to place food,On the basis of decorative food.",
+  "authors": [
+    "玉隐",
+    "理神"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/decorative-extension",
+    "sources": "https://github.com/666daji/Decorative-Extension",
+    "issues": "https://github.com/666daji/Decorative-Extension/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/dfood_expand/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.dfoodexpand.client.DFoodExpandDataGenerator"
+    ],
+    "client": [
+      "org.dfoodexpand.client.DFoodExpandClient"
+    ],
+    "main": [
+      "org.dfoodexpand.DFoodExpand"
+    ]
+  },
+  "mixins": [
+    "dfood_expand.mixins.json",
+    {
+      "config": "dfood_expand.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.9",
+    "fabric-api": "*",
+    "minecraft": "~${minecraft_version}",
+    "decorative-food": ">=1.20.1-1.1.4"
+  }
+}

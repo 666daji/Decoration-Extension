@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:basket/cod_3",
+  "textures": {
+    "cod": "minecraft:block/cooked_cod"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:basket/carrot_4",
+  "textures": {
+    "carrot": "minecraft:block/golden_carrot"
+  }
+}

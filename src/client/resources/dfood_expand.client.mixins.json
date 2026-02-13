@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.dfoodexpand.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "BlockEntityRendererFactoriesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

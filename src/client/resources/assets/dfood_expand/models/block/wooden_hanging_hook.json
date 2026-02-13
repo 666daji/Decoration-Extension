@@ -1,0 +1,6 @@
+{
+  "parent": "dfood_expand:block/hanging_hook",
+  "textures": {
+    "hook": "dfood_expand:block/wooden_hanging_hook"
+  }
+}

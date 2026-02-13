@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:basket/potato_1",
+  "textures": {
+    "potato": "minecraft:block/baked_potato"
+  }
+}

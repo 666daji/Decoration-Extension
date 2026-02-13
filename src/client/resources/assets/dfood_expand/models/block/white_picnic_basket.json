@@ -1,0 +1,7 @@
+{
+  "parent": "dfood_expand:block/picnic_basket",
+  "textures": {
+    "basket": "dfood_expand:block/white_picnic_basket",
+    "bu": "dfood_expand:block/white_picnic_basket_bu"
+  }
+}

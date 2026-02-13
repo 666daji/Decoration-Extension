@@ -1,0 +1,77 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+  "textures": {
+    "potato": "minecraft:block/potato"
+  },
+	"elements": [
+		{
+			"from": [10.5, 1.27612, 7.81732],
+			"to": [14.5, 7.27612, 12.81732],
+			"rotation": {"angle": 0, "axis": "z", "origin": [12.5, 4.5, 10.6]},
+			"faces": {
+				"north": {"uv": [6, 0, 12, 4], "rotation": 270, "texture": "#potato"},
+				"east": {"uv": [6, 5, 0, 0], "rotation": 90, "texture": "#potato"},
+				"south": {"uv": [6, 4, 12, 8], "rotation": 90, "texture": "#potato"},
+				"west": {"uv": [6, 5, 0, 10], "rotation": 90, "texture": "#potato"},
+				"up": {"uv": [0, 10, 5, 14], "rotation": 90, "texture": "#potato"},
+				"down": {"uv": [6, 8, 11, 12], "rotation": 90, "texture": "#potato"}
+			}
+		},
+		{
+			"from": [9.71732, 1.27612, 3.4],
+			"to": [14.71732, 7.27612, 7.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12.5, 4.5, 5.4]},
+			"faces": {
+				"north": {"uv": [6, 5, 0, 0], "rotation": 90, "texture": "#potato"},
+				"east": {"uv": [6, 4, 12, 8], "rotation": 90, "texture": "#potato"},
+				"south": {"uv": [6, 5, 0, 10], "rotation": 90, "texture": "#potato"},
+				"west": {"uv": [6, 0, 12, 4], "rotation": 270, "texture": "#potato"},
+				"up": {"uv": [0, 10, 5, 14], "texture": "#potato"},
+				"down": {"uv": [6, 8, 11, 12], "rotation": 180, "texture": "#potato"}
+			}
+		},
+		{
+			"from": [3.92388, 0.5, 7.91732],
+			"to": [9.92388, 4.5, 12.91732],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.7, 2.5, 10.7]},
+			"faces": {
+				"north": {"uv": [6, 0, 12, 4], "texture": "#potato"},
+				"east": {"uv": [6, 8, 11, 12], "texture": "#potato"},
+				"south": {"uv": [6, 4, 12, 8], "texture": "#potato"},
+				"west": {"uv": [0, 10, 5, 14], "texture": "#potato"},
+				"up": {"uv": [6, 5, 0, 0], "texture": "#potato"},
+				"down": {"uv": [6, 5, 0, 10], "texture": "#potato"}
+			}
+		},
+		{
+			"from": [2.67388, 0.28268, 3.45],
+			"to": [8.67388, 5.28268, 7.45],
+			"rotation": {"angle": 0, "axis": "x", "origin": [5.45, 2.5, 5.45]},
+			"faces": {
+				"north": {"uv": [6, 5, 0, 10], "rotation": 180, "texture": "#potato"},
+				"east": {"uv": [6, 8, 11, 12], "rotation": 270, "texture": "#potato"},
+				"south": {"uv": [6, 5, 0, 0], "texture": "#potato"},
+				"west": {"uv": [0, 10, 5, 14], "rotation": 90, "texture": "#potato"},
+				"up": {"uv": [6, 0, 12, 4], "rotation": 180, "texture": "#potato"},
+				"down": {"uv": [6, 4, 12, 8], "texture": "#potato"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "土豆2",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "group",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [0, 1, 2, 3]
+				}
+			]
+		}
+	]
+}

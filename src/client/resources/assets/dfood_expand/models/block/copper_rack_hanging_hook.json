@@ -1,0 +1,6 @@
+{
+  "parent": "dfood_expand:block/rack_hanging_hook",
+  "textures": {
+    "hook": "dfood_expand:block/copper_rack_hanging_hook"
+  }
+}

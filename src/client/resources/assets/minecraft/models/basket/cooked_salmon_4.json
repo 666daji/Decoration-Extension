@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:basket/salmon_4",
+  "textures": {
+    "salmon": "minecraft:block/cooked_salmon"
+  }
+}

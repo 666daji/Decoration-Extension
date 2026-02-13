@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:basket/apple_4",
+  "textures": {
+    "apple": "minecraft:block/golden_apple",
+    "stem": "minecraft:block/golden_apple_stem"
+  }
+}
