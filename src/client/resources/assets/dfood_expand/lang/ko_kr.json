@@ -23,10 +23,14 @@
   "block.dfood_expand.green_picnic_basket": "초록색 피크닉 바구니",
   "block.dfood_expand.red_picnic_basket": "빨간색 피크닉 바구니",
   "block.dfood_expand.black_picnic_basket": "검은색 피크닉 바구니",
-  "basket.open": "좌클릭으로 피크닉 바구니 열기",
-  "basket.remove_carpet": "웅크리고 좌클릭하면 염색된 카펫 제거",
-  "basket.add_carpet": "염색된 카펫으로 덮을 수 있음",
+
+  "config.jade.plugin_dfood_expand": "TW의 장식 확장",
+  "config.jade.plugin_dfood_expand.picnic_basket": "피크닉 바구니 조작 팁",
+  "jade.dfood_expand.basket.open": "좌클릭으로 피크닉 바구니 열기",
+  "jade.dfood_expand.basket.remove_carpet": "웅크리고 좌클릭하면 염색된 카펫 제거",
+  "jade.dfood_expand.basket.add_carpet": "염색된 카펫으로 덮을 수 있음",
+
   "modmenu.nameTranslation.tw-decorative-extension": "TW의 장식 확장",
-  "modmenu.descriptionTranslation.tw-decorative-extension": "장식용 음식에 기반한 더 많은 음식 배치 방법!",
-  "modmenu.summaryTranslation.tw-decorative-extension": "장식용 음식에 기반한 더 많은 음식 배치 방법!"
+  "modmenu.descriptionTranslation.tw-decorative-extension": "장식용 음식에 기반한 장식 모드, 순수한 장식이 아닙니다!",
+  "modmenu.summaryTranslation.tw-decorative-extension": "장식용 음식에 기반한 장식 모드, 순수한 장식이 아닙니다!"
 }

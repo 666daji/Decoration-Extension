@@ -23,10 +23,14 @@
   "block.dfood_expand.green_picnic_basket": "Зелёная корзина для пикника",
   "block.dfood_expand.red_picnic_basket": "Красная корзина для пикника",
   "block.dfood_expand.black_picnic_basket": "Чёрная корзина для пикника",
-  "basket.open": "Нажмите левой кнопкой мыши, чтобы открыть корзину для пикника",
-  "basket.remove_carpet": "Крадитесь и нажмите левой кнопкой мыши, чтобы убрать окрашенный ковёр",
-  "basket.add_carpet": "Можно накрыть окрашенным ковром",
+
+  "config.jade.plugin_dfood_expand": "Декоративное расширение TW",
+  "config.jade.plugin_dfood_expand.picnic_basket": "Подсказки по использованию корзины для пикника",
+  "jade.dfood_expand.basket.open": "Нажмите левой кнопкой мыши, чтобы открыть корзину для пикника",
+  "jade.dfood_expand.basket.remove_carpet": "Крадитесь и нажмите левой кнопкой мыши, чтобы убрать окрашенный ковёр",
+  "jade.dfood_expand.basket.add_carpet": "Можно накрыть окрашенным ковром",
+
   "modmenu.nameTranslation.tw-decorative-extension": "Декоративное расширение TW",
-  "modmenu.descriptionTranslation.tw-decorative-extension": "Больше способов размещения еды на основе декоративной еды!",
-  "modmenu.summaryTranslation.tw-decorative-extension": "Больше способов размещения еды на основе декоративной еды!"
+  "modmenu.descriptionTranslation.tw-decorative-extension": "Декоративный мод, основанный на декоративной еде, а не просто декорация!",
+  "modmenu.summaryTranslation.tw-decorative-extension": "Декоративный мод, основанный на декоративной еде, а не просто декорация!"
 }

@@ -23,10 +23,14 @@
   "block.dfood_expand.green_picnic_basket": "Panier de pique-nique vert",
   "block.dfood_expand.red_picnic_basket": "Panier de pique-nique rouge",
   "block.dfood_expand.black_picnic_basket": "Panier de pique-nique noir",
-  "basket.open": "Cliquez avec le bouton gauche pour ouvrir le panier de pique-nique",
-  "basket.remove_carpet": "Accroupissez-vous et cliquez avec le bouton gauche pour retirer le tapis teint",
-  "basket.add_carpet": "Peut être recouvert d'un tapis teint",
+
+  "config.jade.plugin_dfood_expand": "Extension Décorative de TW",
+  "config.jade.plugin_dfood_expand.picnic_basket": "Indications du panier de pique-nique",
+  "jade.dfood_expand.basket.open": "Cliquez avec le bouton gauche pour ouvrir le panier de pique-nique",
+  "jade.dfood_expand.basket.remove_carpet": "Accroupissez-vous et cliquez avec le bouton gauche pour retirer le tapis teint",
+  "jade.dfood_expand.basket.add_carpet": "Peut être recouvert d'un tapis teint",
+
   "modmenu.nameTranslation.tw-decorative-extension": "Extension Décorative de TW",
-  "modmenu.descriptionTranslation.tw-decorative-extension": "Plus de façons de disposer les aliments basées sur la nourriture décorative!",
-  "modmenu.summaryTranslation.tw-decorative-extension": "Plus de façons de disposer les aliments basées sur la nourriture décorative!"
+  "modmenu.descriptionTranslation.tw-decorative-extension": "Un mod de décoration basé sur la nourriture décorative, pas seulement de la décoration!",
+  "modmenu.summaryTranslation.tw-decorative-extension": "Un mod de décoration basé sur la nourriture décorative, pas seulement de la décoration!"
 }

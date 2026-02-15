@@ -23,10 +23,14 @@
   "block.dfood_expand.green_picnic_basket": "Green Picnic Basket",
   "block.dfood_expand.red_picnic_basket": "Red Picnic Basket",
   "block.dfood_expand.black_picnic_basket": "Black Picnic Basket",
-  "basket.open": "Left-click to open the picnic basket",
-  "basket.remove_carpet": "Sneak and left-click to remove the dyed carpet",
-  "basket.add_carpet": "Can be covered with a dyed carpet",
+
+  "config.jade.plugin_dfood_expand": "TW's Decorative Extension",
+  "config.jade.plugin_dfood_expand.picnic_basket": "Picnic Basket Hints",
+  "jade.dfood_expand.basket.open": "Left-click to open the picnic basket",
+  "jade.dfood_expand.basket.remove_carpet": "Sneak and left-click to remove the dyed carpet",
+  "jade.dfood_expand.basket.add_carpet": "Can be covered with a dyed carpet",
+
   "modmenu.nameTranslation.tw-decorative-extension": "TW's Decorative Extension",
-  "modmenu.descriptionTranslation.tw-decorative-extension": "More ways to display food based on Decorative Food!",
-  "modmenu.summaryTranslation.tw-decorative-extension": "More ways to display food based on Decorative Food!"
+  "modmenu.descriptionTranslation.tw-decorative-extension": "A decoration mod based on Decorative Food, not purely decorative!",
+  "modmenu.summaryTranslation.tw-decorative-extension": "A decoration mod based on Decorative Food, not purely decorative!"
 }

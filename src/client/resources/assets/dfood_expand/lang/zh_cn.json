@@ -24,11 +24,13 @@
   "block.dfood_expand.red_picnic_basket": "红色野餐篮",
   "block.dfood_expand.black_picnic_basket": "黑色野餐篮",
 
-  "basket.open": "使用左键轻击打开野餐篮",
-  "basket.remove_carpet": "潜行时使用左键轻击拆除染色地毯",
-  "basket.add_carpet": "可以使用染色地毯覆盖",
+  "config.jade.plugin_dfood_expand": "TW的装饰扩展",
+  "config.jade.plugin_dfood_expand.picnic_basket": "野餐篮操作提示",
+  "jade.dfood_expand.basket.open": "使用左键轻击打开野餐篮",
+  "jade.dfood_expand.basket.remove_carpet": "潜行时使用左键轻击拆除染色地毯",
+  "jade.dfood_expand.basket.add_carpet": "可以使用染色地毯覆盖",
 
   "modmenu.nameTranslation.tw-decorative-extension": "TW的装饰扩展",
-  "modmenu.descriptionTranslation.tw-decorative-extension": "基于装饰性食物的更多的摆放食物的方式!",
-  "modmenu.summaryTranslation.tw-decorative-extension": "基于装饰性食物的更多的摆放食物的方式!"
+  "modmenu.descriptionTranslation.tw-decorative-extension": "基于装饰性食物的装饰模组，而非纯装饰!",
+  "modmenu.summaryTranslation.tw-decorative-extension": "基于装饰性食物的装饰模组，而非纯装饰!"
 }

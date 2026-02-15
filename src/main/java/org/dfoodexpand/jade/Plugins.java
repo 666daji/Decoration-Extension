@@ -11,5 +11,6 @@ public class Plugins implements IWailaPlugin {
     @Override
     public void registerClient(IWailaClientRegistration registration) {
         registration.registerBlockComponent(new PicnicBasketBlockComponentProvider(), PicnicBasketBlock.class);
+        registration.markAsClientFeature(PicnicBasketBlockComponentProvider.ID);
     }
 }

@@ -23,10 +23,14 @@
   "block.dfood_expand.green_picnic_basket": "緑のピクニックバスケット",
   "block.dfood_expand.red_picnic_basket": "赤のピクニックバスケット",
   "block.dfood_expand.black_picnic_basket": "黒のピクニックバスケット",
-  "basket.open": "左クリックでピクニックバスケットを開く",
-  "basket.remove_carpet": "スニークしながら左クリックで染色されたカーペットを取り外す",
-  "basket.add_carpet": "染色されたカーペットで覆うことができる",
+
+  "config.jade.plugin_dfood_expand": "TWの装飾拡張",
+  "config.jade.plugin_dfood_expand.picnic_basket": "ピクニックバスケット操作ヒント",
+  "jade.dfood_expand.basket.open": "左クリックでピクニックバスケットを開く",
+  "jade.dfood_expand.basket.remove_carpet": "スニークしながら左クリックで染色されたカーペットを取り外す",
+  "jade.dfood_expand.basket.add_carpet": "染色されたカーペットで覆うことができる",
+
   "modmenu.nameTranslation.tw-decorative-extension": "TWの装飾拡張",
-  "modmenu.descriptionTranslation.tw-decorative-extension": "装飾食品に基づいたより多くの食品の配置方法！",
-  "modmenu.summaryTranslation.tw-decorative-extension": "装飾食品に基づいたより多くの食品の配置方法！"
+  "modmenu.descriptionTranslation.tw-decorative-extension": "装飾食品に基づいた装飾Mod、純粋な装飾ではありません！",
+  "modmenu.summaryTranslation.tw-decorative-extension": "装飾食品に基づいた装飾Mod、純粋な装飾ではありません！"
 }

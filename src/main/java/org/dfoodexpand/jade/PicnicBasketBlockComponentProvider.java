@@ -11,6 +11,8 @@ import snownee.jade.api.ITooltip;
 import snownee.jade.api.config.IPluginConfig;
 
 public class PicnicBasketBlockComponentProvider implements IBlockComponentProvider {
+    public static final Identifier ID = new Identifier(DFoodExpand.MOD_ID, "picnic_basket");
+
     @Override
     public void appendTooltip(ITooltip iTooltip, BlockAccessor blockAccessor, IPluginConfig iPluginConfig) {
         BlockState state = blockAccessor.getBlockState();
@@ -18,20 +20,20 @@ public class PicnicBasketBlockComponentProvider implements IBlockComponentProvid
         boolean haveCarpet = state.getBlock() instanceof PicnicBasketBlock block && block.dyedCarpet != null;
 
         if (!current) {
-            iTooltip.add(Text.translatable("basket.open"));
+            iTooltip.add(Text.translatable("jade.dfood_expand.basket.open"));
         }
 
         if (!haveCarpet && current) {
-            iTooltip.add(Text.translatable("basket.add_carpet"));
+            iTooltip.add(Text.translatable("jade.dfood_expand.basket.add_carpet"));
         }
 
         if (haveCarpet && current) {
-            iTooltip.add(Text.translatable("basket.remove_carpet"));
+            iTooltip.add(Text.translatable("jade.dfood_expand.basket.remove_carpet"));
         }
     }
 
     @Override
     public Identifier getUid() {
-        return new Identifier(DFoodExpand.MOD_ID, "picnic_basket");
+        return ID;
     }
 }

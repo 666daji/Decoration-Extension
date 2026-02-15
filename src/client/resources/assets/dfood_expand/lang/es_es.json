@@ -23,10 +23,14 @@
   "block.dfood_expand.green_picnic_basket": "Cesta de picnic verde",
   "block.dfood_expand.red_picnic_basket": "Cesta de picnic roja",
   "block.dfood_expand.black_picnic_basket": "Cesta de picnic negra",
-  "basket.open": "Haz clic izquierdo para abrir la cesta de picnic",
-  "basket.remove_carpet": "Agáchate y haz clic izquierdo para quitar la alfombra teñida",
-  "basket.add_carpet": "Se puede cubrir con una alfombra teñida",
+
+  "config.jade.plugin_dfood_expand": "Extensión Decorativa de TW",
+  "config.jade.plugin_dfood_expand.picnic_basket": "Indicaciones de la cesta de picnic",
+  "jade.dfood_expand.basket.open": "Haz clic izquierdo para abrir la cesta de picnic",
+  "jade.dfood_expand.basket.remove_carpet": "Agáchate y haz clic izquierdo para quitar la alfombra teñida",
+  "jade.dfood_expand.basket.add_carpet": "Se puede cubrir con una alfombra teñida",
+
   "modmenu.nameTranslation.tw-decorative-extension": "Extensión Decorativa de TW",
-  "modmenu.descriptionTranslation.tw-decorative-extension": "¡Más formas de colocar comida basada en Comida Decorativa!",
-  "modmenu.summaryTranslation.tw-decorative-extension": "¡Más formas de colocar comida basada en Comida Decorativa!"
+  "modmenu.descriptionTranslation.tw-decorative-extension": "¡Un mod de decoración basado en Comida Decorativa, no solo decoración!",
+  "modmenu.summaryTranslation.tw-decorative-extension": "¡Un mod de decoración basado en Comida Decorativa, no solo decoración!"
 }

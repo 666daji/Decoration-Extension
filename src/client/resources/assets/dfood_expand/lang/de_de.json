@@ -23,10 +23,14 @@
   "block.dfood_expand.green_picnic_basket": "Grüner Picknickkorb",
   "block.dfood_expand.red_picnic_basket": "Roter Picknickkorb",
   "block.dfood_expand.black_picnic_basket": "Schwarzer Picknickkorb",
-  "basket.open": "Linksklick, um den Picknickkorb zu öffnen",
-  "basket.remove_carpet": "Schleichen und Linksklick, um den gefärbten Teppich zu entfernen",
-  "basket.add_carpet": "Kann mit einem gefärbten Teppich bedeckt werden",
+
+  "config.jade.plugin_dfood_expand": "TW's Dekorative Erweiterung",
+  "config.jade.plugin_dfood_expand.picnic_basket": "Picknickkorb-Hinweise",
+  "jade.dfood_expand.basket.open": "Linksklick, um den Picknickkorb zu öffnen",
+  "jade.dfood_expand.basket.remove_carpet": "Schleichen und Linksklick, um den gefärbten Teppich zu entfernen",
+  "jade.dfood_expand.basket.add_carpet": "Kann mit einem gefärbten Teppich bedeckt werden",
+
   "modmenu.nameTranslation.tw-decorative-extension": "TW's Dekorative Erweiterung",
-  "modmenu.descriptionTranslation.tw-decorative-extension": "Mehr Möglichkeiten, Essen basierend auf dekorativem Essen zu präsentieren!",
-  "modmenu.summaryTranslation.tw-decorative-extension": "Mehr Möglichkeiten, Essen basierend auf dekorativem Essen zu präsentieren!"
+  "modmenu.descriptionTranslation.tw-decorative-extension": "Ein Dekorationsmod basierend auf dekorativem Essen, nicht nur Dekoration!",
+  "modmenu.summaryTranslation.tw-decorative-extension": "Ein Dekorationsmod basierend auf dekorativem Essen, nicht nur Dekoration!"
 }

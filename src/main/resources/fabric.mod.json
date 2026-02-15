@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "tw-decorative-extension",
+  "id": "tw-decoration-extension",
   "version": "${version}",
   "name": "Tw`s Decoration Extension",
-  "description": "Decoration mod based on decorative food,Not purely decorative!",
+  "description": "Decoration mod based on decorative food,Not purely decoration!",
   "authors": ["Tenacious Wonder"],
   "contact": {
     "homepage": "https://modrinth.com/mod/decorative-extension",
-    "sources": "https://github.com/666daji/Decorative-Extension",
-    "issues": "https://github.com/666daji/Decorative-Extension/issues"
+    "sources": "https://github.com/666daji/Decoration-Extension",
+    "issues": "https://github.com/666daji/Decoration-Extension/issues"
   },
   "license": "MIT",
   "icon": "assets/dfood_expand/icon.jpg",
