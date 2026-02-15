@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dfood_expand:block/iron_hanging_hook",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dfood_expand:block/iron_hanging_hook",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "dfood_expand:block/iron_hanging_hook",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dfood_expand:block/iron_hanging_hook"
+    }
+  }
+}

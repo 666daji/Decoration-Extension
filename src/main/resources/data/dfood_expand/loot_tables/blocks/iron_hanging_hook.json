@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dfood_expand:wooden_hanging_hook"
+          "name": "dfood_expand:iron_hanging_hook"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dfood_expand:wooden_hanging_hook"
+  "random_sequence": "dfood_expand:iron_hanging_hook"
 }

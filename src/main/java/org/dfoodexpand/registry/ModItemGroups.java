@@ -18,9 +18,9 @@ public class ModItemGroups {
                         .displayName(Text.translatable("itemgroup.dfood_expand"))
                         .icon(() -> new ItemStack(Items.BREAD))
                         .entries(((displayContext, entries) -> {
-                            entries.add(ModItems.WOODEN_HANGING_HOOK);
+                            entries.add(ModItems.IRON_HANGING_HOOK);
                             entries.add(ModItems.COPPER_HANGING_HOOK);
-                            entries.add(ModItems.WOODEN_RACK_HANGING_HOOK);
+                            entries.add(ModItems.IRON_RACK_HANGING_HOOK);
                             entries.add(ModItems.COPPER_RACK_HANGING_HOOK);
                             entries.add(ModItems.PICNIC_BASKET);
                             entries.add(ModItems.WHITE_PICNIC_BASKET);

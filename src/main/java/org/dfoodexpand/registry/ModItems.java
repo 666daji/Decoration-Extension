@@ -9,10 +9,11 @@ import net.minecraft.util.Identifier;
 import org.dfoodexpand.DFoodExpand;
 
 public class ModItems {
-    public static final Item WOODEN_HANGING_HOOK = registerItem(ModBlocks.WOODEN_HANGING_HOOK, new Item.Settings().maxCount(1));
-    public static final Item COPPER_HANGING_HOOK = registerItem(ModBlocks.COPPER_HANGING_HOOK, new Item.Settings().maxCount(1));
-    public static final Item WOODEN_RACK_HANGING_HOOK = registerItem(ModBlocks.WOODEN_RACK_HANGING_HOOK, new Item.Settings().maxCount(1));
-    public static final Item COPPER_RACK_HANGING_HOOK = registerItem(ModBlocks.COPPER_RACK_HANGING_HOOK, new Item.Settings().maxCount(1));
+    public static final Item IRON_HANGING_HOOK = registerItem(ModBlocks.IRON_HANGING_HOOK, new Item.Settings());
+    public static final Item COPPER_HANGING_HOOK = registerItem(ModBlocks.COPPER_HANGING_HOOK, new Item.Settings());
+    public static final Item IRON_RACK_HANGING_HOOK = registerItem(ModBlocks.IRON_RACK_HANGING_HOOK, new Item.Settings());
+    public static final Item COPPER_RACK_HANGING_HOOK = registerItem(ModBlocks.COPPER_RACK_HANGING_HOOK, new Item.Settings());
+
     public static final Item PICNIC_BASKET = registerItem(ModBlocks.PICNIC_BASKET, new Item.Settings().maxCount(1));
     public static final Item WHITE_PICNIC_BASKET = registerItem(ModBlocks.WHITE_PICNIC_BASKET, new Item.Settings().maxCount(1));
     public static final Item ORANGE_PICNIC_BASKET = registerItem(ModBlocks.ORANGE_PICNIC_BASKET, new Item.Settings().maxCount(1));

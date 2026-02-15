@@ -3,18 +3,15 @@
   "id": "tw-decorative-extension",
   "version": "${version}",
   "name": "Tw`s Decoration Extension",
-  "description": "More ways to place food,On the basis of decorative food.",
-  "authors": [
-    "玉隐",
-    "理神"
-  ],
+  "description": "Decoration mod based on decorative food,Not purely decorative!",
+  "authors": ["Tenacious Wonder"],
   "contact": {
     "homepage": "https://modrinth.com/mod/decorative-extension",
     "sources": "https://github.com/666daji/Decorative-Extension",
     "issues": "https://github.com/666daji/Decorative-Extension/issues"
   },
   "license": "MIT",
-  "icon": "assets/dfood_expand/icon.png",
+  "icon": "assets/dfood_expand/icon.jpg",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
@@ -25,6 +22,9 @@
     ],
     "main": [
       "org.dfoodexpand.DFoodExpand"
+    ],
+    "jade": [
+      "org.dfoodexpand.jade.Plugins"
     ]
   },
   "mixins": [

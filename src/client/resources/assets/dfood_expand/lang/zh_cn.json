@@ -2,9 +2,9 @@
   "itemgroup.dfood_expand": "TW的装饰扩展",
   "jade.modName.dfood_expand": "TW的装饰扩展",
 
-  "block.dfood_expand.wooden_hanging_hook": "木制挂钩",
+  "block.dfood_expand.iron_hanging_hook": "铁制挂钩",
   "block.dfood_expand.copper_hanging_hook": "铜制挂钩",
-  "block.dfood_expand.wooden_rack_hanging_hook": "木架挂钩",
+  "block.dfood_expand.iron_rack_hanging_hook": "铁架挂钩",
   "block.dfood_expand.copper_rack_hanging_hook": "铜架挂钩",
   "block.dfood_expand.picnic_basket": "野餐篮",
   "block.dfood_expand.white_picnic_basket": "白色野餐篮",
@@ -23,6 +23,10 @@
   "block.dfood_expand.green_picnic_basket": "绿色野餐篮",
   "block.dfood_expand.red_picnic_basket": "红色野餐篮",
   "block.dfood_expand.black_picnic_basket": "黑色野餐篮",
+
+  "basket.open": "使用左键轻击打开野餐篮",
+  "basket.remove_carpet": "潜行时使用左键轻击拆除染色地毯",
+  "basket.add_carpet": "可以使用染色地毯覆盖",
 
   "modmenu.nameTranslation.tw-decorative-extension": "TW的装饰扩展",
   "modmenu.descriptionTranslation.tw-decorative-extension": "基于装饰性食物的更多的摆放食物的方式!",

@@ -13,6 +13,7 @@ import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
 import net.minecraft.nbt.NbtOps;
 import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
@@ -121,7 +122,7 @@ public class PicnicBasketBlock extends BlockWithEntity implements HaveClickInter
             if (!player.isCreative()) {
                 stack.decrement(1);
             }
-            world.playSound(null, pos, SoundEvents.ENTITY_ITEM_PICKUP, SoundCategory.BLOCKS, 0.3f, 1.0f);
+            world.playSound(null, pos, getSound(stack), SoundCategory.BLOCKS, 0.3f, 1.0f);
             blockEntity.markDirty();
             return ActionResult.SUCCESS;
         }
@@ -131,7 +132,7 @@ public class PicnicBasketBlock extends BlockWithEntity implements HaveClickInter
             ItemStack extracted = blockEntity.removeStack(0, 1);
             if (!extracted.isEmpty()) {
                 player.getInventory().offerOrDrop(extracted);
-                world.playSound(null, pos, SoundEvents.ENTITY_ITEM_PICKUP, SoundCategory.BLOCKS, 0.3f, 0.8f);
+                world.playSound(null, pos, getSound(stack), SoundCategory.BLOCKS, 0.3f, 0.8f);
                 blockEntity.markDirty();
                 return ActionResult.SUCCESS;
             }
@@ -228,6 +229,21 @@ public class PicnicBasketBlock extends BlockWithEntity implements HaveClickInter
                 }
             }
         }
+    }
+
+    /**
+     * 获取物品的放置音效。
+     *
+     * @param stack 要获取的物品堆栈
+     * @return 对应的放置音效
+     */
+    protected SoundEvent getSound(ItemStack stack) {
+        BlockState state = DFoodUtils.getBlockStateFromItem(stack.getItem());
+        if (state != null) {
+            return state.getBlock().getSoundGroup(state).getPlaceSound();
+        }
+
+        return SoundEvents.BLOCK_WOOD_PLACE;
     }
 
     @Override

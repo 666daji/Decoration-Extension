@@ -12,8 +12,8 @@ import org.dfoodexpand.block.entity.PicnicBasketBlockEntity;
 
 public class ModBlockEntityTypes {
     public static final BlockEntityType<HangingHookBlockEntity> HANGING_HOOK = register("hanging_hook", BlockEntityType.Builder.create(
-            HangingHookBlockEntity::new, ModBlocks.WOODEN_HANGING_HOOK, ModBlocks.COPPER_HANGING_HOOK,
-            ModBlocks.WOODEN_RACK_HANGING_HOOK, ModBlocks.COPPER_RACK_HANGING_HOOK
+            HangingHookBlockEntity::new, ModBlocks.IRON_HANGING_HOOK, ModBlocks.COPPER_HANGING_HOOK,
+            ModBlocks.IRON_RACK_HANGING_HOOK, ModBlocks.COPPER_RACK_HANGING_HOOK
     ));
     public static final BlockEntityType<PicnicBasketBlockEntity> PICNIC_BASKET = register("picnic_basket", BlockEntityType.Builder.create(
             PicnicBasketBlockEntity::new, PicnicBasketBlock.getAll()

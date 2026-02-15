@@ -9,14 +9,14 @@ import org.dfoodexpand.DFoodExpand;
 import org.dfoodexpand.block.*;
 
 public class ModBlocks {
-    public static final Block WOODEN_HANGING_HOOK = register("wooden_hanging_hook", new HangingHookBlock(AbstractBlock.Settings.create()
-            .mapColor(MapColor.OAK_TAN).strength(1.0F, 3.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()));
+    public static final Block IRON_HANGING_HOOK = register("iron_hanging_hook", new HangingHookBlock(AbstractBlock.Settings.create()
+            .mapColor(MapColor.OAK_TAN).strength(1.0F, 3.0F).sounds(BlockSoundGroup.COPPER).nonOpaque()));
     public static final Block COPPER_HANGING_HOOK = register("copper_hanging_hook", new HangingHookBlock(AbstractBlock.Settings.create()
             .mapColor(MapColor.ORANGE).strength(1.0F, 6.0F).sounds(BlockSoundGroup.COPPER).nonOpaque()));
-    public static final Block WOODEN_RACK_HANGING_HOOK = register("wooden_rack_hanging_hook", new HangingHookBlock(AbstractBlock.Settings.create()
+    public static final Block IRON_RACK_HANGING_HOOK = register("iron_rack_hanging_hook", new HangingHookBlock(AbstractBlock.Settings.create()
             .mapColor(MapColor.OAK_TAN).strength(1.0F, 3.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()));
     public static final Block COPPER_RACK_HANGING_HOOK = register("copper_rack_hanging_hook", new HangingHookBlock(AbstractBlock.Settings.create()
-            .mapColor(MapColor.ORANGE).strength(1.0F, 6.0F).sounds(BlockSoundGroup.COPPER).nonOpaque()));
+            .mapColor(MapColor.ORANGE).strength(1.0F, 6.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()));
     public static final Block PICNIC_BASKET = register("picnic_basket", new PicnicBasketBlock(AbstractBlock.Settings.create()
             .mapColor(MapColor.OAK_TAN).strength(1.0F, 2.0F).sounds(BlockSoundGroup.WOOD).nonOpaque(), null));
     public static final Block WHITE_PICNIC_BASKET = register("white_picnic_basket", new PicnicBasketBlock(AbstractBlock.Settings.copy(PICNIC_BASKET),
