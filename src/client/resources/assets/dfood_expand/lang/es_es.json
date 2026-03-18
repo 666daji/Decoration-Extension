@@ -24,6 +24,8 @@
   "block.dfood_expand.red_picnic_basket": "Cesta de picnic roja",
   "block.dfood_expand.black_picnic_basket": "Cesta de picnic negra",
 
+  "block.dfood_expand.hook": "Gancho",
+
   "config.jade.plugin_dfood_expand": "Extensión Decorativa de TW",
   "config.jade.plugin_dfood_expand.picnic_basket": "Indicaciones de la cesta de picnic",
   "jade.dfood_expand.basket.open": "Haz clic izquierdo para abrir la cesta de picnic",

@@ -24,6 +24,17 @@
   "block.dfood_expand.red_picnic_basket": "红色野餐篮",
   "block.dfood_expand.black_picnic_basket": "黑色野餐篮",
 
+  "block.dfood_expand.birch_chair": "白桦木椅子",
+  "block.dfood_expand.jungle_chair": "丛林木椅子",
+  "block.dfood_expand.acacia_chair": "金合欢木椅子",
+  "block.dfood_expand.oak_chair": "橡木椅子",
+  "block.dfood_expand.dark_oak_chair": "深色橡木椅子",
+  "block.dfood_expand.cherry_chair": "樱花木椅子",
+  "block.dfood_expand.spruce_chair": "云杉木椅子",
+  "block.dfood_expand.bamboo_chair": "竹子椅子",
+
+  "block.dfood_expand.hook": "钩子",
+
   "config.jade.plugin_dfood_expand": "TW的装饰扩展",
   "config.jade.plugin_dfood_expand.picnic_basket": "野餐篮操作提示",
   "jade.dfood_expand.basket.open": "使用左键轻击打开野餐篮",

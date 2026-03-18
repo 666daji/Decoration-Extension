@@ -24,6 +24,8 @@
   "block.dfood_expand.red_picnic_basket": "Red Picnic Basket",
   "block.dfood_expand.black_picnic_basket": "Black Picnic Basket",
 
+  "block.dfood_expand.hook": "Hook",
+
   "config.jade.plugin_dfood_expand": "TW's Decorative Extension",
   "config.jade.plugin_dfood_expand.picnic_basket": "Picnic Basket Hints",
   "jade.dfood_expand.basket.open": "Left-click to open the picnic basket",

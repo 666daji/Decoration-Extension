@@ -13,17 +13,17 @@ import net.minecraft.item.Items;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.RotationAxis;
 import net.minecraft.util.math.random.Random;
-import org.dfood.render.HangingItemTransform;
 import org.dfood.util.DFoodUtils;
 import org.dfoodexpand.block.HangingHookBlock;
 import org.dfoodexpand.block.entity.HangingHookBlockEntity;
-import org.spongepowered.asm.mixin.Unique;
+import org.dfoodexpand.client.render.RenderUtil;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.Consumer;
 
 public class HangingHookBlockEntityRenderer implements BlockEntityRenderer<HangingHookBlockEntity> {
-    public static final Map<Item, HangingItemTransform> ITEM_TRANSFORMS = new HashMap<>();
+    public static final Map<Item, Consumer<MatrixStack>> ITEM_TRANSFORMS = new HashMap<>();
 
     protected final BlockRenderManager blockRenderer;
 
@@ -39,36 +39,31 @@ public class HangingHookBlockEntityRenderer implements BlockEntityRenderer<Hangi
      */
     public static void applyTransformation(ItemStack item, MatrixStack matrixStack) {
         if (ITEM_TRANSFORMS.containsKey(item.getItem())){
-            ITEM_TRANSFORMS.get(item.getItem()).transformFunction().accept(matrixStack);
+            ITEM_TRANSFORMS.get(item.getItem()).accept(matrixStack);
         }
     }
 
     static {
-        ITEM_TRANSFORMS.put(Items.COD, new HangingItemTransform(matrixStack -> {
+        ITEM_TRANSFORMS.put(Items.COD, matrixStack -> {
             matrixStack.translate(0.87f,  -0.64f, 0.14f);
-            matrixStack.multiply(RotationAxis.POSITIVE_X.rotationDegrees(90f));
-            matrixStack.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(180f));
-        }));
-        ITEM_TRANSFORMS.put(Items.COOKED_COD, new HangingItemTransform(matrixStack -> {
+            RenderUtil.BASE_MUL.accept(matrixStack);
+        });
+        ITEM_TRANSFORMS.put(Items.COOKED_COD, matrixStack -> {
             matrixStack.translate(0.87f,  -0.64f, 0.14f);
-            matrixStack.multiply(RotationAxis.POSITIVE_X.rotationDegrees(90f));
-            matrixStack.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(180f));
-        }));
-        ITEM_TRANSFORMS.put(Items.SALMON, new HangingItemTransform(matrixStack -> {
+            RenderUtil.BASE_MUL.accept(matrixStack);
+        });
+        ITEM_TRANSFORMS.put(Items.SALMON, matrixStack -> {
             matrixStack.translate(0.93f,  -0.85f, 0.14f);
-            matrixStack.multiply(RotationAxis.POSITIVE_X.rotationDegrees(90f));
-            matrixStack.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(180f));
-        }));
-        ITEM_TRANSFORMS.put(Items.COOKED_SALMON, new HangingItemTransform(matrixStack -> {
+            RenderUtil.BASE_MUL.accept(matrixStack);
+        });
+        ITEM_TRANSFORMS.put(Items.COOKED_SALMON, matrixStack -> {
             matrixStack.translate(0.93f,  -0.85f, 0.14f);
-            matrixStack.multiply(RotationAxis.POSITIVE_X.rotationDegrees(90f));
-            matrixStack.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(180f));
-        }));
-        ITEM_TRANSFORMS.put(Items.TROPICAL_FISH, new HangingItemTransform(matrixStack -> {
+            RenderUtil.BASE_MUL.accept(matrixStack);
+        });
+        ITEM_TRANSFORMS.put(Items.TROPICAL_FISH, matrixStack -> {
             matrixStack.translate(0.94f,  -0.6f, 0.14f);
-            matrixStack.multiply(RotationAxis.POSITIVE_X.rotationDegrees(90f));
-            matrixStack.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(180f));
-        }));
+            RenderUtil.BASE_MUL.accept(matrixStack);
+        });
     }
 
     @Override
@@ -102,7 +97,6 @@ public class HangingHookBlockEntityRenderer implements BlockEntityRenderer<Hangi
      * @param stack 需要渲染的物品
      * @param facing 方块的朝向
      */
-    @Unique
     private void renderSideItem(HangingHookBlockEntity hangingHookBlockEntity, ItemStack stack,
                                 int index, MatrixStack matrixStack,
                                 VertexConsumerProvider vertexConsumerProvider,

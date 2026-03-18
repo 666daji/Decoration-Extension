@@ -24,6 +24,8 @@
   "block.dfood_expand.red_picnic_basket": "Panier de pique-nique rouge",
   "block.dfood_expand.black_picnic_basket": "Panier de pique-nique noir",
 
+  "block.dfood_expand.hook": "Crochet",
+
   "config.jade.plugin_dfood_expand": "Extension Décorative de TW",
   "config.jade.plugin_dfood_expand.picnic_basket": "Indications du panier de pique-nique",
   "jade.dfood_expand.basket.open": "Cliquez avec le bouton gauche pour ouvrir le panier de pique-nique",

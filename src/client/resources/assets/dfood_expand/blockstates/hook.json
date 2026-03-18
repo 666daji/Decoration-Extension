@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dfood_expand:block/hook", "y": 90},
+    "facing=east":  { "model": "dfood_expand:block/hook", "y": 180 },
+    "facing=south": { "model": "dfood_expand:block/hook", "y": 270 },
+    "facing=west":  { "model": "dfood_expand:block/hook"}
+  }
+}

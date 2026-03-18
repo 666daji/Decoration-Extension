@@ -5,6 +5,7 @@ public class RegistryInit {
         ModBlocks.registerAll();
         ModItems.registerAll();
         ModBlockEntityTypes.registerAll();
+        ModEntities.registerAll();
         ModItemGroups.RegistryModItemGroups();
     }
 }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dfood_expand:chair",
+  "key": {
+    "L": {
+      "item": "minecraft:spruce_log"
+    },
+    "S": {
+      "item": "minecraft:spruce_slab"
+    }
+  },
+  "pattern": [
+    "L  ",
+    "SSS",
+    "L L"
+  ],
+  "result": {
+    "item": "dfood_expand:spruce_chair",
+    "count": 1
+  }
+}

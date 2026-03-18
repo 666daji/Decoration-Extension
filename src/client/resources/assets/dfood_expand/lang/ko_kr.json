@@ -24,6 +24,8 @@
   "block.dfood_expand.red_picnic_basket": "빨간색 피크닉 바구니",
   "block.dfood_expand.black_picnic_basket": "검은색 피크닉 바구니",
 
+  "block.dfood_expand.hook": "후크",
+
   "config.jade.plugin_dfood_expand": "TW의 장식 확장",
   "config.jade.plugin_dfood_expand.picnic_basket": "피크닉 바구니 조작 팁",
   "jade.dfood_expand.basket.open": "좌클릭으로 피크닉 바구니 열기",

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dfood_expand:chair",
+  "key": {
+    "L": {
+      "item": "minecraft:cherry_log"
+    },
+    "S": {
+      "item": "minecraft:cherry_slab"
+    }
+  },
+  "pattern": [
+    "L  ",
+    "SSS",
+    "L L"
+  ],
+  "result": {
+    "item": "dfood_expand:cherry_chair",
+    "count": 1
+  }
+}

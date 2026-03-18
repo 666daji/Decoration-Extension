@@ -24,6 +24,8 @@
   "block.dfood_expand.red_picnic_basket": "赤のピクニックバスケット",
   "block.dfood_expand.black_picnic_basket": "黒のピクニックバスケット",
 
+  "block.dfood_expand.hook": "フック",
+
   "config.jade.plugin_dfood_expand": "TWの装飾拡張",
   "config.jade.plugin_dfood_expand.picnic_basket": "ピクニックバスケット操作ヒント",
   "jade.dfood_expand.basket.open": "左クリックでピクニックバスケットを開く",

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dfood_expand:chair",
+  "key": {
+    "L": {
+      "item": "minecraft:bamboo_block"
+    },
+    "S": {
+      "item": "minecraft:bamboo_slab"
+    }
+  },
+  "pattern": [
+    "L  ",
+    "SSS",
+    "L L"
+  ],
+  "result": {
+    "item": "dfood_expand:bamboo_chair",
+    "count": 1
+  }
+}

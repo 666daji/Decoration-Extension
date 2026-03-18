@@ -9,11 +9,13 @@ import net.minecraft.util.Identifier;
 import org.dfoodexpand.DFoodExpand;
 
 public class ModItems {
+    // 挂钩
     public static final Item IRON_HANGING_HOOK = registerItem(ModBlocks.IRON_HANGING_HOOK, new Item.Settings());
     public static final Item COPPER_HANGING_HOOK = registerItem(ModBlocks.COPPER_HANGING_HOOK, new Item.Settings());
     public static final Item IRON_RACK_HANGING_HOOK = registerItem(ModBlocks.IRON_RACK_HANGING_HOOK, new Item.Settings());
     public static final Item COPPER_RACK_HANGING_HOOK = registerItem(ModBlocks.COPPER_RACK_HANGING_HOOK, new Item.Settings());
 
+    // 野餐篮
     public static final Item PICNIC_BASKET = registerItem(ModBlocks.PICNIC_BASKET, new Item.Settings().maxCount(1));
     public static final Item WHITE_PICNIC_BASKET = registerItem(ModBlocks.WHITE_PICNIC_BASKET, new Item.Settings().maxCount(1));
     public static final Item ORANGE_PICNIC_BASKET = registerItem(ModBlocks.ORANGE_PICNIC_BASKET, new Item.Settings().maxCount(1));
@@ -31,6 +33,37 @@ public class ModItems {
     public static final Item GREEN_PICNIC_BASKET = registerItem(ModBlocks.GREEN_PICNIC_BASKET, new Item.Settings().maxCount(1));
     public static final Item RED_PICNIC_BASKET = registerItem(ModBlocks.RED_PICNIC_BASKET, new Item.Settings().maxCount(1));
     public static final Item BLACK_PICNIC_BASKET = registerItem(ModBlocks.BLACK_PICNIC_BASKET, new Item.Settings().maxCount(1));
+
+    // 椅子
+    public static final Item BIRCH_CHAIR = registerItem(ModBlocks.BIRCH_CHAIR, new Item.Settings().maxCount(1));
+    public static final Item JUNGLE_CHAIR = registerItem(ModBlocks.JUNGLE_CHAIR, new Item.Settings().maxCount(1));
+    public static final Item ACACIA_CHAIR = registerItem(ModBlocks.ACACIA_CHAIR, new Item.Settings().maxCount(1));
+    public static final Item OAK_CHAIR = registerItem(ModBlocks.OAK_CHAIR, new Item.Settings().maxCount(1));
+    public static final Item DARK_OAK_CHAIR = registerItem(ModBlocks.DARK_OAK_CHAIR, new Item.Settings().maxCount(1));
+    public static final Item CHERRY_CHAIR = registerItem(ModBlocks.CHERRY_CHAIR, new Item.Settings().maxCount(1));
+    public static final Item SPRUCE_CHAIR = registerItem(ModBlocks.SPRUCE_CHAIR, new Item.Settings().maxCount(1));
+    public static final Item BAMBOO_CHAIR = registerItem(ModBlocks.BAMBOO_CHAIR, new Item.Settings().maxCount(1));
+
+    // 钩子
+    public static final Item HOOK = registerItem(ModBlocks.HOOK, new Item.Settings());
+
+    // 坐垫
+//    public static final Item WHITE_CUSHION = registerItem(ModBlocks.WHITE_CUSHION);
+//    public static final Item ORANGE_CUSHION = registerItem(ModBlocks.ORANGE_CUSHION);
+//    public static final Item MAGENTA_CUSHION = registerItem(ModBlocks.MAGENTA_CUSHION);
+//    public static final Item LIGHT_BLUE_CUSHION = registerItem(ModBlocks.LIGHT_BLUE_CUSHION);
+//    public static final Item YELLOW_CUSHION = registerItem(ModBlocks.YELLOW_CUSHION);
+//    public static final Item LIME_CUSHION = registerItem(ModBlocks.LIME_CUSHION);
+//    public static final Item PINK_CUSHION = registerItem(ModBlocks.PINK_CUSHION);
+//    public static final Item GRAY_CUSHION = registerItem(ModBlocks.GRAY_CUSHION);
+//    public static final Item LIGHT_GRAY_CUSHION = registerItem(ModBlocks.LIGHT_GRAY_CUSHION);
+//    public static final Item CYAN_CUSHION = registerItem(ModBlocks.CYAN_CUSHION);
+//    public static final Item PURPLE_CUSHION = registerItem(ModBlocks.PURPLE_CUSHION);
+//    public static final Item BLUE_CUSHION = registerItem(ModBlocks.BLUE_CUSHION);
+//    public static final Item BROWN_CUSHION = registerItem(ModBlocks.BROWN_CUSHION);
+//    public static final Item GREEN_CUSHION = registerItem(ModBlocks.GREEN_CUSHION);
+//    public static final Item RED_CUSHION = registerItem(ModBlocks.RED_CUSHION);
+//    public static final Item BLACK_CUSHION = registerItem(ModBlocks.BLACK_CUSHION);
 
     private static Item registerItem(Block block){
         return registerItem(block, new Item.Settings());

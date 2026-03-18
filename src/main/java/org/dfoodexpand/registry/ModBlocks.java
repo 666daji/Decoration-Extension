@@ -9,6 +9,7 @@ import org.dfoodexpand.DFoodExpand;
 import org.dfoodexpand.block.*;
 
 public class ModBlocks {
+    // 挂钩
     public static final Block IRON_HANGING_HOOK = register("iron_hanging_hook", new HangingHookBlock(AbstractBlock.Settings.create()
             .mapColor(MapColor.OAK_TAN).strength(1.0F, 3.0F).sounds(BlockSoundGroup.COPPER).nonOpaque()));
     public static final Block COPPER_HANGING_HOOK = register("copper_hanging_hook", new HangingHookBlock(AbstractBlock.Settings.create()
@@ -17,6 +18,8 @@ public class ModBlocks {
             .mapColor(MapColor.OAK_TAN).strength(1.0F, 3.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()));
     public static final Block COPPER_RACK_HANGING_HOOK = register("copper_rack_hanging_hook", new HangingHookBlock(AbstractBlock.Settings.create()
             .mapColor(MapColor.ORANGE).strength(1.0F, 6.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()));
+
+    // 野餐篮
     public static final Block PICNIC_BASKET = register("picnic_basket", new PicnicBasketBlock(AbstractBlock.Settings.create()
             .mapColor(MapColor.OAK_TAN).strength(1.0F, 2.0F).sounds(BlockSoundGroup.WOOD).nonOpaque(), null));
     public static final Block WHITE_PICNIC_BASKET = register("white_picnic_basket", new PicnicBasketBlock(AbstractBlock.Settings.copy(PICNIC_BASKET),
@@ -51,6 +54,35 @@ public class ModBlocks {
             (DyedCarpetBlock) Blocks.RED_CARPET));
     public static final Block BLACK_PICNIC_BASKET = register("black_picnic_basket", new PicnicBasketBlock(AbstractBlock.Settings.copy(PICNIC_BASKET),
             (DyedCarpetBlock) Blocks.BLACK_CARPET));
+
+    // 椅子
+    public static final Block BIRCH_CHAIR = register("birch_chair", new ChairBlock(
+            AbstractBlock.Settings.create().mapColor(MapColor.PALE_YELLOW).strength(1.0F, 2.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()
+    ));
+    public static final Block JUNGLE_CHAIR = register("jungle_chair", new ChairBlock(
+            AbstractBlock.Settings.create().mapColor(MapColor.DIRT_BROWN).strength(1.0F, 2.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()
+    ));
+    public static final Block ACACIA_CHAIR = register("acacia_chair", new ChairBlock(
+            AbstractBlock.Settings.create().mapColor(MapColor.ORANGE).strength(1.0F, 2.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()
+    ));
+    public static final Block OAK_CHAIR = register("oak_chair", new ChairBlock(
+            AbstractBlock.Settings.create().mapColor(MapColor.OAK_TAN).strength(1.0F, 2.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()
+    ));
+    public static final Block DARK_OAK_CHAIR = register("dark_oak_chair", new ChairBlock(
+            AbstractBlock.Settings.create().mapColor(MapColor.BROWN).strength(1.0F, 2.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()
+    ));
+    public static final Block CHERRY_CHAIR = register("cherry_chair", new ChairBlock(
+            AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_WHITE).strength(1.0F, 2.0F).sounds(BlockSoundGroup.CHERRY_WOOD).nonOpaque()
+    ));
+    public static final Block SPRUCE_CHAIR = register("spruce_chair", new ChairBlock(
+            AbstractBlock.Settings.create().mapColor(MapColor.SPRUCE_BROWN).strength(1.0F, 2.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()
+    ));
+    public static final Block BAMBOO_CHAIR = register("bamboo_chair", new ChairBlock(
+            AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(1.0F, 2.0F).sounds(BlockSoundGroup.BAMBOO_WOOD).nonOpaque()
+    ));
+
+    // 钩子
+    public static final Block HOOK = register("hook", new HookBlock(AbstractBlock.Settings.create()));
 
     private static Block register(String id, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(DFoodExpand.MOD_ID, id), block);

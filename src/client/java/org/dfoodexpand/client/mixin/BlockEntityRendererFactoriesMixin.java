@@ -21,5 +21,6 @@ public abstract class BlockEntityRendererFactoriesMixin {
     private static void registerBlockEntityRenderers(CallbackInfo ci) {
         register(ModBlockEntityTypes.HANGING_HOOK, HangingHookBlockEntityRenderer::new);
         register(ModBlockEntityTypes.PICNIC_BASKET, PicnicBasketBlockEntityRenderer::new);
+        register(ModBlockEntityTypes.HOOK, HookBlockEntityRenderer::new);
     }
 }

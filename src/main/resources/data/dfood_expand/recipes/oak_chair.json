@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dfood_expand:chair",
+  "key": {
+    "L": {
+      "item": "minecraft:oak_log"
+    },
+    "S": {
+      "item": "minecraft:oak_slab"
+    }
+  },
+  "pattern": [
+    "L  ",
+    "SSS",
+    "L L"
+  ],
+  "result": {
+    "item": "dfood_expand:oak_chair",
+    "count": 1
+  }
+}

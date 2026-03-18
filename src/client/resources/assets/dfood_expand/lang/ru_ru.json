@@ -24,6 +24,8 @@
   "block.dfood_expand.red_picnic_basket": "Красная корзина для пикника",
   "block.dfood_expand.black_picnic_basket": "Чёрная корзина для пикника",
 
+  "block.dfood_expand.hook": "Крюк",
+
   "config.jade.plugin_dfood_expand": "Декоративное расширение TW",
   "config.jade.plugin_dfood_expand.picnic_basket": "Подсказки по использованию корзины для пикника",
   "jade.dfood_expand.basket.open": "Нажмите левой кнопкой мыши, чтобы открыть корзину для пикника",

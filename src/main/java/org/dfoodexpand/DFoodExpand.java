@@ -12,6 +12,6 @@ public class DFoodExpand implements ModInitializer {
     @Override
     public void onInitialize() {
         RegistryInit.init();
-        LOGGER.info("Decorative Food Expand is initializing!");
+        LOGGER.info("Tw`s Decoration Extension is initializing!");
     }
 }

@@ -24,6 +24,8 @@
   "block.dfood_expand.red_picnic_basket": "紅色野餐籃",
   "block.dfood_expand.black_picnic_basket": "黑色野餐籃",
 
+  "block.dfood_expand.hook": "鉤子",
+
   "config.jade.plugin_dfood_expand": "TW的裝飾擴展",
   "config.jade.plugin_dfood_expand.picnic_basket": "野餐籃操作提示",
   "jade.dfood_expand.basket.open": "使用左鍵點擊打開野餐籃",

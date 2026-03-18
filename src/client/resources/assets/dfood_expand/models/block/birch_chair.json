@@ -1,0 +1,7 @@
+{
+  "parent": "dfood_expand:block/chair",
+  "textures": {
+    "chair": "dfood_expand:block/birch_chair",
+    "particle": "minecraft:block/birch_planks"
+  }
+}

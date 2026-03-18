@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dfood_expand:block/cherry_chair" },
+    "facing=east":  { "model": "dfood_expand:block/cherry_chair", "y": 90 },
+    "facing=south": { "model": "dfood_expand:block/cherry_chair", "y": 180 },
+    "facing=west":  { "model": "dfood_expand:block/cherry_chair", "y": 270 }
+  }
+}

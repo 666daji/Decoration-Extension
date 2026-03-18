@@ -24,6 +24,8 @@
   "block.dfood_expand.red_picnic_basket": "Roter Picknickkorb",
   "block.dfood_expand.black_picnic_basket": "Schwarzer Picknickkorb",
 
+  "block.dfood_expand.hook": "Haken",
+
   "config.jade.plugin_dfood_expand": "TW's Dekorative Erweiterung",
   "config.jade.plugin_dfood_expand.picnic_basket": "Picknickkorb-Hinweise",
   "jade.dfood_expand.basket.open": "Linksklick, um den Picknickkorb zu öffnen",

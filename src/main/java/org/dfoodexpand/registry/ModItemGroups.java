@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 import org.dfoodexpand.DFoodExpand;
 
 public class ModItemGroups {
-    private static void ModItemGroup(){
+    public static void RegistryModItemGroups(){
         Registry.register(
                 Registries.ITEM_GROUP,
                 new Identifier(DFoodExpand.MOD_ID, "dfood_expand_group"),
@@ -39,12 +39,19 @@ public class ModItemGroups {
                             entries.add(ModItems.GREEN_PICNIC_BASKET);
                             entries.add(ModItems.RED_PICNIC_BASKET);
                             entries.add(ModItems.BLACK_PICNIC_BASKET);
+
+                            entries.add(ModItems.BIRCH_CHAIR);
+                            entries.add(ModItems.JUNGLE_CHAIR);
+                            entries.add(ModItems.ACACIA_CHAIR);
+                            entries.add(ModItems.OAK_CHAIR);
+                            entries.add(ModItems.DARK_OAK_CHAIR);
+                            entries.add(ModItems.CHERRY_CHAIR);
+                            entries.add(ModItems.SPRUCE_CHAIR);
+                            entries.add(ModItems.BAMBOO_CHAIR);
+
+                            entries.add(ModItems.HOOK);
                         }))
                         .build()
         );
-    }
-
-    public static void RegistryModItemGroups(){
-        ModItemGroup();
     }
 }
