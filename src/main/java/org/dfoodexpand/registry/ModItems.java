@@ -47,24 +47,6 @@ public class ModItems {
     // 钩子
     public static final Item HOOK = registerItem(ModBlocks.HOOK, new Item.Settings());
 
-    // 坐垫
-//    public static final Item WHITE_CUSHION = registerItem(ModBlocks.WHITE_CUSHION);
-//    public static final Item ORANGE_CUSHION = registerItem(ModBlocks.ORANGE_CUSHION);
-//    public static final Item MAGENTA_CUSHION = registerItem(ModBlocks.MAGENTA_CUSHION);
-//    public static final Item LIGHT_BLUE_CUSHION = registerItem(ModBlocks.LIGHT_BLUE_CUSHION);
-//    public static final Item YELLOW_CUSHION = registerItem(ModBlocks.YELLOW_CUSHION);
-//    public static final Item LIME_CUSHION = registerItem(ModBlocks.LIME_CUSHION);
-//    public static final Item PINK_CUSHION = registerItem(ModBlocks.PINK_CUSHION);
-//    public static final Item GRAY_CUSHION = registerItem(ModBlocks.GRAY_CUSHION);
-//    public static final Item LIGHT_GRAY_CUSHION = registerItem(ModBlocks.LIGHT_GRAY_CUSHION);
-//    public static final Item CYAN_CUSHION = registerItem(ModBlocks.CYAN_CUSHION);
-//    public static final Item PURPLE_CUSHION = registerItem(ModBlocks.PURPLE_CUSHION);
-//    public static final Item BLUE_CUSHION = registerItem(ModBlocks.BLUE_CUSHION);
-//    public static final Item BROWN_CUSHION = registerItem(ModBlocks.BROWN_CUSHION);
-//    public static final Item GREEN_CUSHION = registerItem(ModBlocks.GREEN_CUSHION);
-//    public static final Item RED_CUSHION = registerItem(ModBlocks.RED_CUSHION);
-//    public static final Item BLACK_CUSHION = registerItem(ModBlocks.BLACK_CUSHION);
-
     private static Item registerItem(Block block){
         return registerItem(block, new Item.Settings());
     }

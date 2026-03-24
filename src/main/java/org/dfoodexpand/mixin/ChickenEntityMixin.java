@@ -1,5 +1,7 @@
 package org.dfoodexpand.mixin;
 
+import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
+import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.passive.ChickenEntity;
@@ -15,7 +17,6 @@ import org.dfood.block.FoodBlock;
 import org.dfood.util.DFoodUtils;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Redirect;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,12 +31,12 @@ public class ChickenEntityMixin {
      * @param item 原本要掉落的物品
      * @return 如果成功掉落物品返回对应的物品堆栈实体，如果成功放置则返回null
      */
-    @Redirect(
+    @WrapOperation(
             method = "tickMovement()V",
             at = @At(
                     value = "INVOKE",
                     target = "Lnet/minecraft/entity/passive/ChickenEntity;dropItem(Lnet/minecraft/item/ItemConvertible;)Lnet/minecraft/entity/ItemEntity;"))
-    private ItemEntity redirectDropEgg(ChickenEntity chicken, ItemConvertible item) {
+    private ItemEntity redirectDropEgg(ChickenEntity chicken, ItemConvertible item, Operation<ItemEntity> original) {
         World world = chicken.getWorld();
 
         // 获取鸡蛋对应的方块状态
@@ -136,6 +137,6 @@ public class ChickenEntityMixin {
         }
 
         // 所有尝试都失败，回退到原版逻辑
-        return chicken.dropItem(item);
+        return original.call(chicken, item);
     }
 }

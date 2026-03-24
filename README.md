@@ -3,7 +3,7 @@
 
 Some blocks and entities for decoration. And additional small features.
 
-dependent mod:Decorative Food
+dependent mod:TW`s Decorative Food
 
 If you have any questions or suggestions for improvement,
 You can click [here](https://github.com/666daji/Decoration-Extension/issues) to give us feedback.

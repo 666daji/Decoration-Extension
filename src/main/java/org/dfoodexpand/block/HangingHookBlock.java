@@ -23,6 +23,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
+import org.dfood.util.DFoodUtils;
 import org.dfoodexpand.block.entity.HangingHookBlockEntity;
 import org.dfoodexpand.registry.ModTags;
 import org.jetbrains.annotations.Nullable;
@@ -167,7 +168,8 @@ public class HangingHookBlock extends BlockWithEntity {
     @Override
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
         BlockPos checkPos = pos.offset(state.get(FACING));
-        return !world.getBlockState(checkPos).isIn(org.dfood.tag.ModTags.FOOD_PLACE);
+        BlockState checkState = world.getBlockState(checkPos);
+        return !state.isReplaceable() && !DFoodUtils.isModFoodBlock(checkState.getBlock());
     }
 
     @Override
